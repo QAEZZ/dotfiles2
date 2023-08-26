@@ -1,8 +1,0 @@
-2023-08-25 23:47:26.814 [info] Getting Manifest... ms-python.black-formatter
-2023-08-25 23:47:26.821 [info] Installing extension: ms-python.black-formatter
-2023-08-25 23:47:27.460 [info] Getting Manifest... ms-python.python
-2023-08-25 23:47:28.030 [warning] Extension signature verification failed with error 'UnknownError': ms-python.black-formatter
-2023-08-25 23:47:28.356 [info] Extracted extension to file:///home/qaezz/.vscode/extensions/ms-python.black-formatter-2023.4.1: ms-python.black-formatter
-2023-08-25 23:47:28.362 [info] Renamed to /home/qaezz/.vscode/extensions/ms-python.black-formatter-2023.4.1
-2023-08-25 23:47:28.364 [info] Extracting extension completed. ms-python.black-formatter
-2023-08-25 23:47:28.370 [info] Extension installed successfully: ms-python.black-formatter
