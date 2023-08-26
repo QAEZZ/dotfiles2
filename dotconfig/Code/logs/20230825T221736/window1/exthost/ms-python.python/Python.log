@@ -1,0 +1,12 @@
+2023-08-25 22:17:38.275 [info] Experiment 'pythonaacf' is active
+2023-08-25 22:17:38.275 [info] Experiment 'pythonPromptNewFormatterExt' is active
+2023-08-25 22:17:38.275 [info] Experiment 'pythonPromptNewToolsExt' is active
+2023-08-25 22:17:38.275 [info] Experiment 'pythonSurveyNotification' is active
+2023-08-25 22:17:38.275 [info] Experiment 'pythonTestAdaptercf' is active
+2023-08-25 22:17:38.369 [info] Test server listening.
+2023-08-25 22:17:38.382 [info] Python interpreter path: /bin/python
+2023-08-25 22:17:40.032 [info] Starting Pylance language server.
+2023-08-25 22:19:44.812 [info] Discover tests for workspace name: qtile - uri: /home/qaezz/.config/qtile/config.py
+2023-08-25 22:20:02.679 [info] Discover tests for workspace name: qtile - uri: /home/qaezz/.config/qtile/config.py
+2023-08-25 22:20:07.927 [info] Discover tests for workspace name: qtile - uri: /home/qaezz/.config/qtile/config.py
+2023-08-25 22:20:11.127 [info] Discover tests for workspace name: qtile - uri: /home/qaezz/.config/qtile/config.py

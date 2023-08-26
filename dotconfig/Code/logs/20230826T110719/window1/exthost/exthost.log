@@ -1,0 +1,34 @@
+2023-08-26 11:07:20.329 [info] Extension host with pid 2932 started
+2023-08-26 11:07:20.442 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-08-26 11:07:20.450 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.black-formatter
+2023-08-26 11:07:20.709 [info] ExtensionService#_doActivateExtension ms-python.black-formatter, startup: false, activationEvent: 'onLanguage:python'
+2023-08-26 11:07:20.748 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2023-08-26 11:07:20.953 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-08-26 11:07:21.434 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-08-26 11:07:21.449 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-08-26 11:07:21.474 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-08-26 11:07:21.482 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-08-26 11:07:21.523 [info] Eager extensions activated
+2023-08-26 11:07:21.550 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-08-26 11:07:21.552 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-08-26 11:10:03.717 [info] ExtensionService#_doActivateExtension fkrull.gtk-dark-titlebar, startup: false, activationEvent: '*'
+2023-08-26 11:10:12.783 [info] Extension host terminating: renderer closed the MessagePort
+2023-08-26 11:10:12.819 [info] Extension host with pid 2932 exiting with code 0
+2023-08-26 11:10:13.683 [info] Extension host with pid 3931 started
+2023-08-26 11:10:13.906 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-08-26 11:10:13.917 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.black-formatter
+2023-08-26 11:10:14.202 [info] ExtensionService#_doActivateExtension ms-python.black-formatter, startup: false, activationEvent: 'onLanguage:python'
+2023-08-26 11:10:14.212 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2023-08-26 11:10:14.413 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-08-26 11:10:14.903 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-08-26 11:10:14.905 [info] ExtensionService#_doActivateExtension fkrull.gtk-dark-titlebar, startup: true, activationEvent: '*'
+2023-08-26 11:10:14.934 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-08-26 11:10:14.949 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-08-26 11:10:14.964 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-08-26 11:10:15.065 [info] Eager extensions activated
+2023-08-26 11:10:15.088 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-08-26 11:10:15.090 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-08-26 11:10:36.327 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-08-26 11:10:36.416 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-08-26 11:11:20.284 [info] Extension host terminating: renderer closed the MessagePort
+2023-08-26 11:11:20.332 [info] Extension host with pid 3931 exiting with code 0

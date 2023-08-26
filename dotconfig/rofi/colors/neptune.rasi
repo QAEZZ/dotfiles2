@@ -1,0 +1,18 @@
+// normal:
+//    black: '#121212'
+//    red: '#b00923'
+//    green: '#4db775'
+//    yellow: '#f7d54c'
+//    blue: '#3a53e1'
+//    magenta: '#e52b50'
+//    cyan: '#82d0f7'
+//    white: '#f8f8ff'
+
+* {
+  background: #121212;
+  background-alt: #121212;
+  foreground: #f8f8ff;
+  selected: #3a53e1;
+  active: #f8f8ff;
+  urgent: #b00923;
+}

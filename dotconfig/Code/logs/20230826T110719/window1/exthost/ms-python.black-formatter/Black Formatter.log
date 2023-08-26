@@ -1,0 +1,90 @@
+2023-08-26 11:07:20.941 [info] Name: Black Formatter
+2023-08-26 11:07:20.941 [info] Module: black
+2023-08-26 11:07:20.941 [info] Python extension loading
+2023-08-26 11:07:20.941 [info] Waiting for interpreter from python extension.
+2023-08-26 11:07:20.941 [info] No interpreter found from setting black-formatter.interpreter
+2023-08-26 11:07:20.941 [info] Getting interpreter from ms-python.python extension for workspace /home/qaezz
+2023-08-26 11:07:20.941 [info] Python extension loaded
+2023-08-26 11:07:20.941 [info] Interpreter from ms-python.python extension for /home/qaezz: /bin/python
+2023-08-26 11:07:20.941 [info] Server run command: /bin/python /home/qaezz/.vscode/extensions/ms-python.black-formatter-2023.4.1/bundled/tool/lsp_server.py
+2023-08-26 11:07:20.941 [info] Server: Start requested.
+2023-08-26 11:07:21.443 [info] CWD Server: /home/qaezz
+2023-08-26 11:07:21.444 [info] Settings used to run Server:
+[]
+
+2023-08-26 11:07:21.444 [info] Global settings:
+{
+    "cwd": "/home/qaezz",
+    "workspace": "/home/qaezz",
+    "args": [],
+    "path": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+
+2023-08-26 11:07:21.444 [info] sys.path used to run Server:
+   /home/qaezz/.vscode/extensions/ms-python.black-formatter-2023.4.1/bundled/libs
+   /home/qaezz/.vscode/extensions/ms-python.black-formatter-2023.4.1/bundled/tool
+   /usr/lib/python311.zip
+   /usr/lib/python3.11
+   /usr/lib/python3.11/lib-dynload
+   /home/qaezz/.local/lib/python3.11/site-packages
+   /usr/lib/python3.11/site-packages
+2023-08-26 11:07:21.444 [info] /bin/python -m black --version
+2023-08-26 11:07:21.445 [info] CWD formatter: /home/qaezz
+2023-08-26 11:07:21.533 [info] Version info for formatter running for /home/qaezz:
+black, 23.3.0 (compiled: no)
+Python (CPython) 3.11.3
+
+2023-08-26 11:07:21.537 [info] SUPPORTED black>=22.3.0
+FOUND black==23.3.0
+
+2023-08-26 11:08:18.384 [info] [Trace - 11:08:18 AM] Sending notification 'textDocument/didChange'.
+2023-08-26 11:08:18.465 [info] [Trace - 11:08:18 AM] Sending notification 'textDocument/didChange'.
+2023-08-26 11:08:18.513 [info] [Trace - 11:08:18 AM] Sending notification 'textDocument/didChange'.
+2023-08-26 11:08:18.992 [info] [Trace - 11:08:18 AM] Sending notification 'textDocument/didChange'.
+2023-08-26 11:08:19.122 [info] [Trace - 11:08:19 AM] Sending notification 'textDocument/didChange'.
+2023-08-26 11:08:19.248 [info] [Trace - 11:08:19 AM] Sending notification 'textDocument/didChange'.
+2023-08-26 11:10:14.411 [info] Name: Black Formatter
+2023-08-26 11:10:14.411 [info] Module: black
+2023-08-26 11:10:14.411 [info] Python extension loading
+2023-08-26 11:10:14.411 [info] Waiting for interpreter from python extension.
+2023-08-26 11:10:14.411 [info] No interpreter found from setting black-formatter.interpreter
+2023-08-26 11:10:14.411 [info] Getting interpreter from ms-python.python extension for workspace /home/qaezz
+2023-08-26 11:10:14.411 [info] Python extension loaded
+2023-08-26 11:10:14.411 [info] Interpreter from ms-python.python extension for /home/qaezz: /bin/python
+2023-08-26 11:10:14.411 [info] Server run command: /bin/python /home/qaezz/.vscode/extensions/ms-python.black-formatter-2023.4.1/bundled/tool/lsp_server.py
+2023-08-26 11:10:14.411 [info] Server: Start requested.
+2023-08-26 11:10:14.915 [info] CWD Server: /home/qaezz
+2023-08-26 11:10:14.933 [info] Settings used to run Server:
+[]
+
+2023-08-26 11:10:14.957 [info] Global settings:
+{
+    "cwd": "/home/qaezz",
+    "workspace": "/home/qaezz",
+    "args": [],
+    "path": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+
+2023-08-26 11:10:14.990 [info] sys.path used to run Server:
+   /home/qaezz/.vscode/extensions/ms-python.black-formatter-2023.4.1/bundled/libs
+   /home/qaezz/.vscode/extensions/ms-python.black-formatter-2023.4.1/bundled/tool
+   /usr/lib/python311.zip
+   /usr/lib/python3.11
+   /usr/lib/python3.11/lib-dynload
+   /home/qaezz/.local/lib/python3.11/site-packages
+   /usr/lib/python3.11/site-packages
+2023-08-26 11:10:15.041 [info] /bin/python -m black --version
+2023-08-26 11:10:15.066 [info] CWD formatter: /home/qaezz
+2023-08-26 11:10:15.079 [info] Version info for formatter running for /home/qaezz:
+black, 23.3.0 (compiled: no)
+Python (CPython) 3.11.3
+
+2023-08-26 11:10:15.081 [info] SUPPORTED black>=22.3.0
+FOUND black==23.3.0
+

@@ -1,0 +1,22 @@
+2023-08-25 23:41:20.893 [info] [Info  - 11:41:20 PM] (129878) Pylance language server 2023.8.40 (pyright 03f79a81) starting
+2023-08-25 23:41:20.894 [info] [Info  - 11:41:20 PM] (129878) Server root directory: /home/qaezz/.vscode/extensions/ms-python.vscode-pylance-2023.8.40/dist
+2023-08-25 23:41:20.908 [info] [Info  - 11:41:20 PM] (129878) Starting service instance "<default>"
+2023-08-25 23:41:20.932 [info] [Info  - 11:41:20 PM] (129878) Setting pythonPath for service "<default>": "/bin/python"
+2023-08-25 23:41:20.932 [info] [Warn  - 11:41:20 PM] (129878) stubPath typings is not a valid directory.
+2023-08-25 23:41:20.967 [info] [Info  - 11:41:20 PM] (129878) Assuming Python version 3.11
+2023-08-25 23:41:21.025 [info] [Info  - 11:41:21 PM] (129878) No source files found.
+2023-08-25 23:41:21.131 [info] [Info  - 11:41:21 PM] (129878) Setting pythonPath for service "<default>": "/bin/python"
+2023-08-25 23:41:21.131 [info] [Warn  - 11:41:21 PM] (129878) stubPath typings is not a valid directory.
+2023-08-25 23:41:21.156 [info] [Info  - 11:41:21 PM] (129878) Assuming Python version 3.11
+2023-08-25 23:41:21.214 [info] [Info  - 11:41:21 PM] (129878) No source files found.
+2023-08-25 23:47:30.073 [info] [Info  - 11:47:30 PM] (131043) Pylance language server 2023.8.40 (pyright 03f79a81) starting
+2023-08-25 23:47:30.073 [info] [Info  - 11:47:30 PM] (131043) Server root directory: /home/qaezz/.vscode/extensions/ms-python.vscode-pylance-2023.8.40/dist
+2023-08-25 23:47:30.091 [info] [Info  - 11:47:30 PM] (131043) Starting service instance "<default>"
+2023-08-25 23:47:30.145 [info] [Info  - 11:47:30 PM] (131043) Setting pythonPath for service "<default>": "/bin/python"
+2023-08-25 23:47:30.147 [info] [Warn  - 11:47:30 PM] (131043) stubPath typings is not a valid directory.
+2023-08-25 23:47:30.158 [info] [Info  - 11:47:30 PM] (131043) Assuming Python version 3.11
+2023-08-25 23:47:30.265 [info] [Info  - 11:47:30 PM] (131043) No source files found.
+2023-08-25 23:47:30.371 [info] [Info  - 11:47:30 PM] (131043) Setting pythonPath for service "<default>": "/bin/python"
+2023-08-25 23:47:30.371 [info] [Warn  - 11:47:30 PM] (131043) stubPath typings is not a valid directory.
+2023-08-25 23:47:30.415 [info] [Info  - 11:47:30 PM] (131043) Assuming Python version 3.11
+2023-08-25 23:47:30.480 [info] [Info  - 11:47:30 PM] (131043) No source files found.

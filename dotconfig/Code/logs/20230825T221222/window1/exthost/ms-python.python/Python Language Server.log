@@ -1,0 +1,7 @@
+2023-08-25 22:12:44.759 [info] [Info  - 10:12:44 PM] (97997) Pylance language server 2023.8.40 (pyright 03f79a81) starting
+2023-08-25 22:12:44.760 [info] [Info  - 10:12:44 PM] (97997) Server root directory: /home/qaezz/.vscode/extensions/ms-python.vscode-pylance-2023.8.40/dist
+2023-08-25 22:12:44.760 [info] [Info  - 10:12:44 PM] (97997) Starting service instance "qtile"
+2023-08-25 22:12:44.799 [info] [Info  - 10:12:44 PM] (97997) Setting pythonPath for service "qtile": "/bin/python"
+2023-08-25 22:12:44.799 [info] [Warn  - 10:12:44 PM] (97997) stubPath /home/qaezz/.config/qtile/typings is not a valid directory.
+2023-08-25 22:12:44.843 [info] [Info  - 10:12:44 PM] (97997) Assuming Python version 3.11
+2023-08-25 22:12:44.905 [info] [Info  - 10:12:44 PM] (97997) Found 1 source file

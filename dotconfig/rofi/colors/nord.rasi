@@ -1,0 +1,16 @@
+/**
+ *
+ * Author : QAEZZ
+ * Github : @QAEZZ
+ * 
+ * Colors
+ **/
+
+* {
+    background:     #2E344075;
+    background-alt: #383E4A80;
+    foreground:     #E5E9F0;
+    selected:       #4C566A;
+    active:         #A3BE8C;
+    urgent:         #BF616A;
+}

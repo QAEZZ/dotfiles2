@@ -1,0 +1,7 @@
+2023-08-26 11:10:01.254 [info] Getting Manifest... fkrull.gtk-dark-titlebar
+2023-08-26 11:10:01.270 [info] Installing extension: fkrull.gtk-dark-titlebar
+2023-08-26 11:10:03.086 [warning] Extension signature verification failed with error 'UnknownError': fkrull.gtk-dark-titlebar
+2023-08-26 11:10:03.148 [info] Extracted extension to file:///home/qaezz/.vscode/extensions/fkrull.gtk-dark-titlebar-1.3.0: fkrull.gtk-dark-titlebar
+2023-08-26 11:10:03.152 [info] Renamed to /home/qaezz/.vscode/extensions/fkrull.gtk-dark-titlebar-1.3.0
+2023-08-26 11:10:03.154 [info] Extracting extension completed. fkrull.gtk-dark-titlebar
+2023-08-26 11:10:03.163 [info] Extension installed successfully: fkrull.gtk-dark-titlebar

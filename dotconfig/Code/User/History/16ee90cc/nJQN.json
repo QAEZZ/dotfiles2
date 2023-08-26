@@ -1,0 +1,13 @@
+{
+    "workbench.colorTheme": "Andromeda Bordered",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "python.formatting.provider": "none",
+    "window.titleBarStyle": "custom",
+    "launch": {
+        "configurations": [
+            
+        ]
+    }
+}

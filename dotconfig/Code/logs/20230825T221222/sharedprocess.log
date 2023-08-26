@@ -1,0 +1,16 @@
+2023-08-25 22:12:32.865 [info] Getting Manifest... ms-python.python
+2023-08-25 22:12:32.867 [info] Getting Manifest... ms-python.python
+2023-08-25 22:12:32.877 [info] Installing extension: ms-python.python
+2023-08-25 22:12:32.879 [info] Extensions is already requested to install ms-python.python
+2023-08-25 22:12:33.139 [info] Getting Manifest... ms-python.vscode-pylance
+2023-08-25 22:12:33.213 [info] Installing extension: ms-python.vscode-pylance ms-python.python
+2023-08-25 22:12:35.508 [warning] Extension signature verification failed with error 'UnknownError': ms-python.python
+2023-08-25 22:12:37.321 [info] Extracted extension to file:///home/qaezz/.vscode/extensions/ms-python.python-2023.14.0: ms-python.python
+2023-08-25 22:12:37.331 [info] Renamed to /home/qaezz/.vscode/extensions/ms-python.python-2023.14.0
+2023-08-25 22:12:37.345 [info] Extracting extension completed. ms-python.python
+2023-08-25 22:12:38.790 [warning] Extension signature verification failed with error 'UnknownError': ms-python.vscode-pylance
+2023-08-25 22:12:41.882 [info] Extracted extension to file:///home/qaezz/.vscode/extensions/ms-python.vscode-pylance-2023.8.40: ms-python.vscode-pylance
+2023-08-25 22:12:41.900 [info] Renamed to /home/qaezz/.vscode/extensions/ms-python.vscode-pylance-2023.8.40
+2023-08-25 22:12:41.902 [info] Extracting extension completed. ms-python.vscode-pylance
+2023-08-25 22:12:41.913 [info] Extension installed successfully: ms-python.python
+2023-08-25 22:12:41.914 [info] Extension installed successfully: ms-python.vscode-pylance

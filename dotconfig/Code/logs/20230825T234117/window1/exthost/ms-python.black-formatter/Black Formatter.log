@@ -1,0 +1,58 @@
+2023-08-25 23:47:29.164 [info] Name: Black Formatter
+2023-08-25 23:47:29.164 [info] Module: black
+2023-08-25 23:47:29.164 [info] Python extension loading
+2023-08-25 23:47:29.164 [info] Waiting for interpreter from python extension.
+2023-08-25 23:47:29.164 [info] No interpreter found from setting black-formatter.interpreter
+2023-08-25 23:47:29.164 [info] Getting interpreter from ms-python.python extension for workspace /home/qaezz/.config/qtile
+2023-08-25 23:47:29.164 [info] Python extension loaded
+2023-08-25 23:47:29.164 [info] Interpreter from ms-python.python extension for /home/qaezz/.config/qtile: /bin/python
+2023-08-25 23:47:29.164 [info] Server run command: /bin/python /home/qaezz/.vscode/extensions/ms-python.black-formatter-2023.4.1/bundled/tool/lsp_server.py
+2023-08-25 23:47:29.164 [info] Server: Start requested.
+2023-08-25 23:47:29.747 [info] CWD Server: /home/qaezz/.config/qtile
+2023-08-25 23:47:29.747 [info] Settings used to run Server:
+[]
+
+2023-08-25 23:47:29.747 [info] Global settings:
+{
+    "cwd": "/home/qaezz/.config/qtile",
+    "workspace": "/home/qaezz/.config/qtile",
+    "args": [],
+    "path": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+
+2023-08-25 23:47:29.747 [info] sys.path used to run Server:
+   /home/qaezz/.vscode/extensions/ms-python.black-formatter-2023.4.1/bundled/libs
+   /home/qaezz/.vscode/extensions/ms-python.black-formatter-2023.4.1/bundled/tool
+   /usr/lib/python311.zip
+   /usr/lib/python3.11
+   /usr/lib/python3.11/lib-dynload
+   /home/qaezz/.local/lib/python3.11/site-packages
+   /usr/lib/python3.11/site-packages
+2023-08-25 23:47:29.750 [info] /bin/python -m black --version
+2023-08-25 23:47:29.750 [info] CWD formatter: /home/qaezz/.config/qtile
+2023-08-25 23:47:29.918 [info] Version info for formatter running for /home/qaezz/.config/qtile:
+black, 23.3.0 (compiled: no)
+Python (CPython) 3.11.3
+
+2023-08-25 23:47:29.918 [info] SUPPORTED black>=22.3.0
+FOUND black==23.3.0
+
+2023-08-25 23:47:31.171 [info] [Trace - 11:47:31 PM] Sending request 'textDocument/formatting - (1)'.
+2023-08-25 23:47:31.176 [info] [Trace - 11:47:31 PM] Received notification 'window/logMessage'.
+2023-08-25 23:47:31.176 [info] /bin/python -m black --stdin-filename /home/qaezz/.config/qtile/config.py -
+2023-08-25 23:47:31.176 [info] [Trace - 11:47:31 PM] Received notification 'window/logMessage'.
+2023-08-25 23:47:31.176 [info] CWD formatter: /home/qaezz/.config/qtile
+2023-08-25 23:47:31.336 [info] [Trace - 11:47:31 PM] Received notification 'window/logMessage'.
+2023-08-25 23:47:31.336 [info] reformatted /home/qaezz/.config/qtile/config.py
+
+All done! ✨ 🍰 ✨
+1 file reformatted.
+
+2023-08-25 23:47:31.336 [info] [Trace - 11:47:31 PM] Received response 'textDocument/formatting - (1)' in 165ms.
+2023-08-25 23:47:31.360 [info] [Trace - 11:47:31 PM] Sending notification 'textDocument/didChange'.
+2023-08-25 23:47:37.910 [info] [Trace - 11:47:37 PM] Sending request 'shutdown - (2)'.
+2023-08-25 23:47:37.922 [info] [Trace - 11:47:37 PM] Received response 'shutdown - (2)' in 14ms.
+2023-08-25 23:47:37.922 [info] [Trace - 11:47:37 PM] Sending notification 'exit'.
