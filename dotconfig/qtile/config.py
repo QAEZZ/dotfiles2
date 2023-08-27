@@ -24,13 +24,18 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-from libqtile import bar, layout, widget, hook
+import datetime
+import subprocess
+import os
+from os.path import expanduser
+
+from libqtile import qtile, bar, hook, layout, widget
+from qtile_extras import widget
+from qtile_extras.bar import Bar
+from qtile_extras.widget.decorations import RectDecoration
 from libqtile.config import Click, Drag, Group, Key, Match, Screen
 from libqtile.lazy import lazy
 from libqtile.utils import guess_terminal
-from os.path import expanduser
-import subprocess
-import datetime
 
 mod = "mod4"
 terminal = guess_terminal()
@@ -118,25 +123,33 @@ keys = [
         desc="Lock the screen.",
     ),
     # power menu
-    Key (
+    Key(
         [mod, "control", "shift"],
         "p",
-        lazy.spawn(expanduser("~/.config/rofi/powermenu/type-2/powermenu.sh"), shell=True),
+        lazy.spawn(
+            expanduser("~/.config/rofi/powermenu/type-2/powermenu.sh"), shell=True
+        ),
         desc="Shows the power menu",
     ),
     # screenshot to clipboard
-    Key (
+    Key(
         ["control"],
         "Tab",
-        lazy.spawn("maim --format=png --select | xclip -selection clipboard -t image/png", shell=True),
-        desc="Take a screenshot of a selected area and put it to the clipboard."
+        lazy.spawn(
+            "maim --format=png --select | xclip -selection clipboard -t image/png",
+            shell=True,
+        ),
+        desc="Take a screenshot of a selected area and put it to the clipboard.",
     ),
     # screenshot to file
-    Key (
+    Key(
         ["control", "shift"],
         "Tab",
-        lazy.spawn(f"maim --format=png --select \"{expanduser('~/Pictures/Screenies/')}{datetime.datetime.now()}.png\"", shell=True),
-        desc="Take a screenshot of a selected area and save it locally."
+        lazy.spawn(
+            f"maim --format=png --select \"{expanduser('~/Pictures/Screenies/')}{datetime.datetime.now()}.png\"",
+            shell=True,
+        ),
+        desc="Take a screenshot of a selected area and save it locally.",
     ),
 ]
 
@@ -194,33 +207,73 @@ widget_defaults = dict(
 )
 extension_defaults = widget_defaults.copy()
 
+decoration_group = {
+    "decorations": [
+        RectDecoration(
+            colour="#000000", radius=8, filled=True, group=False
+        )
+    ],
+    "padding": 6,
+}
+
+power_decoration_group = {
+    "decorations": [
+        RectDecoration(
+            colour="#000000", radius=8, filled=True, group=False
+        )
+    ],
+    "padding": 10,
+}
+
 screens = [
     Screen(
-        top=bar.Bar(
+        top=Bar(
             [
-                widget.CurrentLayout(),
-                widget.GroupBox(),
-                widget.Prompt(),
-                widget.WindowName(),
-                widget.Chord(
-                    chords_colors={
-                        "launch": ("#ff0000", "#ffffff"),
-                    },
-                    name_transform=lambda name: name.upper(),
+                # left side
+                widget.GroupBox(
+                    **decoration_group, highlight_method="text", disable_drag=True
                 ),
-                widget.TextBox("default config", name="default"),
-                widget.TextBox("Press &lt;M-r&gt; to spawn", foreground="#d75f5f"),
-                # NB Systray is incompatible with Wayland, consider using StatusNotifier instead
-                # widget.StatusNotifier(),
-                widget.Systray(),
-                widget.Clock(format="%Y-%m-%d %a %I:%M %p"),
-                widget.QuickExit(),
+                widget.Prompt(**decoration_group),
+
+                # middle side
+                # widget.Box(
+                #     **decoration_group,
+                #     padding=0,
+                #     layout=layout.HBox,
+                #     children=[
+                #         widget.Spacer(),
+                #         widget.WindowName(
+                #             max_chars=50,
+                #             empty_group_string="~",
+                #         ),
+                #         widget.Spacer(),
+                #     ],
+                # ),
+                widget.Spacer(),
+                widget.WindowName(
+                    **decoration_group,
+                    max_chars=80,
+                    empty_group_string="~",
+                    format="{name:^59}",
+                    ),
+                widget.Spacer(),
+
+                # widget.WindowName(**decoration_group, max_chars=50, empty_group_string="~"),
+                # right side
+                
+                widget.Net(**decoration_group),
+                widget.Spacer(length=5),
+                widget.Clock(**decoration_group, format="%Y.%m.%d %a %I:%M %p"),
+                widget.Spacer(length=5),
+                widget.TextBox(
+                    **power_decoration_group,
+                    text="",
+                    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn(expanduser("~/.config/rofi/powermenu/type-2/powermenu.sh"))},
+                ),
             ],
-            25,  # bar width
-            background="#000000",
-            margin=10,
-            # border_width=[2, 0, 2, 0],  # Draw top and bottom borders
-            # border_color=["ff00ff", "000000", "ff00ff", "000000"]  # Borders are magenta
+            35,  # bar height
+            background="#00000000",
+            margin=5,
         ),
         right=bar.Gap(10),
         left=bar.Gap(10),
