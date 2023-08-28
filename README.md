@@ -1,6 +1,6 @@
 # ocean-dark rice
 This rice is using my custom color pallet called `ocean-dark`. \
-Wallpaper: https://unsplash.com/photos/mhS1fcL396w \
+Wallpaper: https://unsplash.com/photos/mhS1fcL396w
 
 Fonts needed:
 ```
@@ -8,8 +8,8 @@ FiraCode Nerd Font
 FiraCode Nerd Font Mono
 ```
 
-Install it via the [AUR](https://security.archlinux.org/package/ttf-firacode-nerd) using your favorite AUR helper.
-Ex. `yay`:
+Install it via the [AUR](https://security.archlinux.org/package/ttf-firacode-nerd) using your favorite AUR helper. \
+Ex. `yay`: 
 ```sh
 $ yay -S ttf-firacode-nerd
 ```
@@ -23,6 +23,13 @@ To be added:
 - [ ] rice ranger and another file manager (debating on which one)
 - [ ] any other shit I feel like.
 
-Join the church! \
+**Join the church!** \
 https://thcotd.org
+
+## Screenies:
+![main showcase](./screenshots/main.png)
+![notification](./screenshots/notification.png)
+![launcher](./screenshots/launcher.png)
+![powermenu](./screenshots/powermenu.png)
+![calendar](./screenshots/calendar.png)
 
