@@ -1,0 +1,16 @@
+/**
+ *
+ * Author : QAEZZ
+ * Github : @QAEZZ
+ * 
+ * ocean-dark
+ **/
+
+* {
+    background:     #080B1275;
+    background-alt: #0E151D80;
+    foreground:     #E5E9F0;
+    selected:       #43586A;
+    active:         #546B7F;
+    urgent:         #8B5252;
+}

@@ -227,54 +227,55 @@ power_decoration_group = {
 
 screens = [
     Screen(
-        top=Bar(
-            [
-                # left side
-                widget.GroupBox(
-                    **decoration_group, highlight_method="text", disable_drag=True
-                ),
-                widget.Prompt(**decoration_group),
+        # top=Bar(
+        #     [
+        #         # left side
+        #         widget.GroupBox(
+        #             **decoration_group, highlight_method="text", disable_drag=True
+        #         ),
+        #         widget.Prompt(**decoration_group),
 
-                # middle side
-                # widget.Box(
-                #     **decoration_group,
-                #     padding=0,
-                #     layout=layout.HBox,
-                #     children=[
-                #         widget.Spacer(),
-                #         widget.WindowName(
-                #             max_chars=50,
-                #             empty_group_string="~",
-                #         ),
-                #         widget.Spacer(),
-                #     ],
-                # ),
-                widget.Spacer(),
-                widget.WindowName(
-                    **decoration_group,
-                    max_chars=80,
-                    empty_group_string="~",
-                    format="{name:^59}",
-                    ),
-                widget.Spacer(),
+        #         # middle side
+        #         # widget.Box(
+        #         #     **decoration_group,
+        #         #     padding=0,
+        #         #     layout=layout.HBox,
+        #         #     children=[
+        #         #         widget.Spacer(),
+        #         #         widget.WindowName(
+        #         #             max_chars=50,
+        #         #             empty_group_string="~",
+        #         #         ),
+        #         #         widget.Spacer(),
+        #         #     ],
+        #         # ),
+        #         widget.Spacer(length=55),
+        #         widget.Spacer(),
+        #         widget.WindowName(
+        #             **decoration_group,
+        #             max_chars=80,
+        #             empty_group_string="~",
+        #             format="{name:^59}",
+        #             ),
+        #         widget.Spacer(),
 
-                # widget.WindowName(**decoration_group, max_chars=50, empty_group_string="~"),
-                # right side
+        #         # widget.WindowName(**decoration_group, max_chars=50, empty_group_string="~"),
+        #         # right side
                 
-                widget.Net(**decoration_group),
-                widget.Spacer(length=5),
-                widget.Clock(**decoration_group, format="%Y.%m.%d %a %I:%M %p"),
-                widget.Spacer(length=5),
-                widget.TextBox(
-                    **power_decoration_group,
-                    text="",
-                    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn(expanduser("~/.config/rofi/powermenu/type-2/powermenu.sh"))},
-                ),
-            ],
-            35,  # bar height
-            background="#00000000",
-            margin=5,
-        ),
+        #         widget.Net(**decoration_group),
+        #         widget.Spacer(length=5),
+        #         widget.Clock(**decoration_group, format="%Y.%m.%d %a %I:%M %p"),
+        #         widget.Spacer(length=5),
+        #         widget.TextBox(
+        #             **power_decoration_group,
+        #             text="",
+        #             mouse_callbacks={'Button1': lambda: qtile.cmd_spawn(expanduser("~/.config/rofi/powermenu/type-2/powermenu.sh"))},
+        #         ),
+        #     ],
+        #     35,  # bar height
+        #     background="#00000000",
+        #     margin=5,
+        # ),
         right=bar.Gap(10),
         left=bar.Gap(10),
         bottom=bar.Gap(10),
