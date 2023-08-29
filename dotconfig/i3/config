@@ -33,7 +33,7 @@ bindsym $mod+p exec ~/.config/rofi/powermenu/type-2/powermenu.sh
 bindsym $mod+Ctrl+l exec i3lock-fancy -- maim
 
 # auto lock the screen
-exec "xautolock -detectsleep -time 2 -locker \"i3lock-fancy -- maim\""
+# exec "xautolock -detectsleep -time 2 -locker \"i3lock-fancy -- maim\""
 
 # start dunst
 exec_always "dunst -conf '~/.config/dunstrc'"

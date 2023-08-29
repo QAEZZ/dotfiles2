@@ -19,14 +19,14 @@ This rice is for Arch.
 
 To be added:
 - [ ] lunarvim theme
-- [ ] finish up the bar n shit
+- [x] finish up the bar n shit
 - [ ] rice ranger and another file manager (debating on which one)
 - [ ] any other shit I feel like.
 
 **Join the church!** \
 https://thcotd.org
 
-## Screenies:
+## Screenies (outdated, wifi module added to the bar):
 ![main showcase](./screenshots/main.png)
 ![notification](./screenshots/notification.png)
 ![launcher](./screenshots/launcher.png)
