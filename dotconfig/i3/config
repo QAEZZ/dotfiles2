@@ -64,7 +64,7 @@ exec_always ~/.config/polybar/launch.sh &
 exec_always nitrogen --restore &
 
 # start a terminal
-bindsym $mod+Return exec alacritty --config-file ".config/alacritty/alacritty.yml"
+bindsym $mod+Return exec alacritty --config-file ".config/alacritty/alacritty.toml"
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -175,9 +175,17 @@ client.background       #ffffff
 
 
 default_border pixel 0
+default_floating_border pixel 0 
 
 gaps inner 10
 
+for_window [class="Sigma file manager"] floating enable
+for_window [title="FileExplorerTest"] floating enable
+for_window [instance="Toolkit"] sticky enable
+for_window [class="Tor Browser"] floating enable
+for_window [class="Qemu-system-x86_64"] floating enable
+for_window [class="Blueman-manager"] floating enable
+# for_window [class="Mullvad VPN"] border pixel 0
 
 # set $ws2 "2:Terminals"
 # set $ws3 "3:Browser"

@@ -1,0 +1,97 @@
+# Configuration for Alacritty, the GPU enhanced terminal emulator.
+
+window:
+  padding:
+    x: 15 
+    y: 15    
+  dynamic_padding: true
+  opacity: 0.75
+font:
+  size: 15
+
+##########################
+#  OCEAN-DARK COLOR SCHEME
+##########################
+
+colors:
+  primary:
+    background: '#101721'
+    foreground: '#E5E9F0'
+    dim_foreground: '#43586A'
+    dim_background: '#303741'
+
+  normal:
+    black: '#101721'
+    red: '#8B5252'
+    green: '#548F7F'
+    yellow: '#BAA285'
+    blue: '#43586A'
+    magenta: '#8B6191'
+    cyan: '#6B8FA3'
+    white: '#E5E9F0'
+
+  bright:
+    black: '#303741'
+    red: '#AF7575'
+    green: '#74AF9F'
+    yellow: '#C9B19B'
+    blue: '#546B7F'
+    magenta: '#AF8AA3'
+    cyan: '#7FA1B0'
+    white: '#E5E9F0'
+
+  dim:
+    black: '#000000'
+    red: '#7A4444'
+    green: '#346F5F'
+    yellow: '#BAA285'
+    blue: '#23384A'
+    magenta: '#6B4171'
+    cyan: '#4B6F83'
+    white: '#E5E9F0'
+
+
+
+
+##########################
+#  NEPTUNE COLOR SCHEME
+##########################
+#
+# colors:
+#   primary:
+#     background: '#121212'
+#     foreground: '#ffffff'
+
+#     dim_foreground: '#878383'
+#     dim_background: '#000000'
+
+#   normal:
+#     black: '#121212'
+#     red: '#b00923'
+#     green: '#4db775'
+#     yellow: '#f7d54c'
+#     blue: '#3a53e1'
+#     magenta: '#e52b50'
+#     cyan: '#82d0f7'
+#     white: '#f8f8ff'
+
+#   bright:
+#     # black: '#4d4d4d'
+#     black: '#121212'
+#     red: '#ff2750'
+#     green: '#6fff9a'
+#     yellow: '#ffed57'
+#     blue: '#6484ff'
+#     magenta: '#ff4573'
+#     cyan: '#a8eaff'
+#     white: '#ffffff'
+
+#   dim:
+#     black: '#080808'
+#     red: '#640416'
+#     green: '#1f3e2a'
+#     yellow: '#bda430'
+#     blue: '#222e9a'
+#     magenta: '#b9223d'
+#     cyan: '#4e92a4'
+#     white: '#eaeaea'
